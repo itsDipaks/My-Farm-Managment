@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BottomNavComponent } from './Shared/Components/bottom-nav/bottom-nav.component';
 import { TopNavComponent } from './Shared/Components/top-nav/top-nav.component';
 import { LoginAuth } from './Modules/Login/login.component';
+import { HomeComponent } from './Modules/home/home.component';
+import { AddNewCrop } from './Modules/home/Components/Drawer/addcropdrawer.component';
  
 
 @NgModule({
@@ -13,7 +15,9 @@ import { LoginAuth } from './Modules/Login/login.component';
     AppComponent,
     BottomNavComponent,
     TopNavComponent,
-    LoginAuth
+    LoginAuth,
+    HomeComponent,
+    AddNewCrop
   ],
   imports: [
     BrowserModule,
