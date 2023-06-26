@@ -7,7 +7,9 @@ import { BottomNavComponent } from './Shared/Components/bottom-nav/bottom-nav.co
 import { TopNavComponent } from './Shared/Components/top-nav/top-nav.component';
 import { LoginAuth } from './Modules/Login/login.component';
 import { HomeComponent } from './Modules/home/home.component';
-import { AddNewCrop } from './Modules/home/Components/Drawer/addcropdrawer.component';
+import { AddCropDrawer } from './Modules/home/Components/Drawer/drawer.component';
+import { SelectNewCrop } from './Modules/home/Components/SelectCrop/selectcrop.component';
+import { AddCropForm } from './Modules/home/Components/AddCropForm/addcropform.component';
  
 
 @NgModule({
@@ -17,11 +19,14 @@ import { AddNewCrop } from './Modules/home/Components/Drawer/addcropdrawer.compo
     TopNavComponent,
     LoginAuth,
     HomeComponent,
-    AddNewCrop
+    SelectNewCrop,
+    AddCropDrawer,
+    AddCropForm
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
