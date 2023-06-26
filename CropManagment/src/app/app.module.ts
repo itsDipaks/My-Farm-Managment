@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BottomNavComponent } from './Shared/Components/bottom-nav/bottom-nav.component';
 import { TopNavComponent } from './Shared/Components/top-nav/top-nav.component';
+import { LoginAuth } from './Modules/Login/login.component';
  
 
 @NgModule({
   declarations: [
     AppComponent,
     BottomNavComponent,
-    TopNavComponent
+    TopNavComponent,
+    LoginAuth
   ],
   imports: [
     BrowserModule,
