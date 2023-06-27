@@ -10,7 +10,11 @@ import { HomeComponent } from './Modules/home/home.component';
 import { AddCropDrawer } from './Modules/home/Components/Drawer/drawer.component';
 import { SelectNewCrop } from './Modules/home/Components/SelectCrop/selectcrop.component';
 import { AddCropForm } from './Modules/home/Components/AddCropForm/addcropform.component';
- 
+import { CropDetailsComponent } from './Modules/crop-details/crop-details.component';
+import { CropSprayComponent } from './Modules/crop-details/Components/crop-spray/crop-spray.component';
+import { CropIncomeComponent } from './Modules/crop-details/Components/crop-income/crop-income.component';
+import { CropFosteredComponent } from './Modules/crop-details/Components/crop-fostered/crop-fostered.component';
+import { CropDetailHomeComponent } from './Modules/crop-details/Components/crop-detail-home/crop-detail-home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,12 @@ import { AddCropForm } from './Modules/home/Components/AddCropForm/addcropform.c
     HomeComponent,
     SelectNewCrop,
     AddCropDrawer,
-    AddCropForm
+    AddCropForm,
+    CropDetailsComponent,
+    CropSprayComponent,
+    CropIncomeComponent,
+    CropFosteredComponent,
+    CropDetailHomeComponent
   ],
   imports: [
     BrowserModule,
