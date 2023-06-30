@@ -1,5 +1,5 @@
 <header class="text-gray-600 body-font border-b-2 py-2">
-    <div class="container mx-auto flex flex-wrap   flex-col md:flex-row items-center">
+    <div [ngClass]="{ 'flex-row': isonHome } " [ngClass]="{'flex-col':!isonHome}" class="container px-5 mx-auto flex flex-wrap  justify-between    md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900  md:mb-0">
         <img src="../../../../assets/AppLogo.png"  class="w-14 h-14 text-white p-1 bg-slate-100 border-b-2 rounded-full"  alt="Applogo">
         <span class=" md:ml-4 hidden md:block text-xl font-bold"> Crop Managment </span>
