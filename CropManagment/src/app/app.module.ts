@@ -15,6 +15,8 @@ import { CropSprayComponent } from './Modules/crop-details/Components/crop-spray
 import { CropIncomeComponent } from './Modules/crop-details/Components/crop-income/crop-income.component';
 import { CropFosteredComponent } from './Modules/crop-details/Components/crop-fostered/crop-fostered.component';
 import { CropDetailHomeComponent } from './Modules/crop-details/Components/crop-detail-home/crop-detail-home.component';
+import { NavDropdawonComponent } from './Shared/Components/nav-dropdawon/nav-dropdawon.component';
+import { SheardDrawerComponent } from './Shared/Components/sheard-drawer/sheard-drawer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { CropDetailHomeComponent } from './Modules/crop-details/Components/crop-
     CropSprayComponent,
     CropIncomeComponent,
     CropFosteredComponent,
-    CropDetailHomeComponent
+    CropDetailHomeComponent,
+    NavDropdawonComponent,
+    SheardDrawerComponent,
   ],
   imports: [
     BrowserModule,

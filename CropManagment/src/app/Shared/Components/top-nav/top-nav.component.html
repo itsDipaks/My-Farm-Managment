@@ -5,10 +5,11 @@
         <span class=" md:ml-4 hidden md:block text-xl font-bold"> Crop Managment </span>
       </a>
 
-      <nav *ngIf="isonHome" class="md:ml-auto flex flex-wrap items-center mt-2 gap-11 text-base font-mono font-semibold justify-between">
+      <nav *ngIf="!isonHome" class="md:ml-auto flex flex-wrap items-center mt-2 gap-11 text-base font-mono font-semibold justify-between">
         <a class=" cursor-pointer  hover:text-gray-900 "> About </a>
         <a class=" cursor-pointer hover:text-gray-900">Reviews </a>
       </nav>
     
+      <app-sheard-drawer *ngIf="isonHome"></app-sheard-drawer>
     </div>
   </header>

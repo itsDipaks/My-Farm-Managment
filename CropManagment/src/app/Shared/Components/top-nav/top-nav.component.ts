@@ -13,7 +13,7 @@ constructor(private router:Router){
 isonHome:boolean=true
 ngOnInit(): void {
   this.router.events.subscribe((res: any) => {
-    if( !res.url?.includes("login")){
+    if( res.url?.includes("login")){
       this.isonHome=false
     }
   })
