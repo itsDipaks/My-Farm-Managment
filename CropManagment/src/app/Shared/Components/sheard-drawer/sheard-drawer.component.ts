@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
 export class SheardDrawerComponent {
   isDrawerOpen: boolean = true;
   isdraweropen() {
+
+
+
+
+    
     this.isDrawerOpen = !this.isDrawerOpen;
 }
 }
