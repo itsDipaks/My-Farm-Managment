@@ -1,4 +1,7 @@
-import {Component , EventEmitter, Output} from "@angular/core"
+impo-
+
+
+rt {Component , EventEmitter, Output} from "@angular/core"
 
 @Component({
     selector:"app-selectcrop-component",
@@ -20,6 +23,7 @@ export class SelectNewCrop {
         {  cropName :"Cabbaze" , cropimg  :"https://images.unsplash.com/photo-1486328228599-85db4443971f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" },
         { cropName :"Carrot " , cropimg  :"https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2Fycm90JTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" }
     ]
+
 
     SelectedCrop(value: any) {
         this.isCropselected = true;
